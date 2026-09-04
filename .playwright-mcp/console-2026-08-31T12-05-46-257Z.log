@@ -1,0 +1,37 @@
+[   22900ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[   22960ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[   22986ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[   23039ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[   23046ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/favicon.ico:0
+[   92368ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[   92388ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[   92414ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[   92432ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[  193066ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[  193087ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[  193106ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[  193123ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[ 1472636ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[ 1472664ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[ 1472692ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[ 1472713ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[ 1647842ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[ 1647863ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[ 1647885ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[ 1647895ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[ 1929582ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[ 1929605ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[ 1929624ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[ 1929636ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[ 2316366ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[ 2316366ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[ 2316394ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[ 2316407ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[ 2458781ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[ 2458804ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[ 2458826ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[ 2458839ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[ 2588752ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin.woff2:0
+[ 2588773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/inter/InterVariable-latin-ext.woff2:0
+[ 2588794ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8080/resources/v1/shared/fonts/poppins/poppins-700-devanagari.woff2:0
+[ 2588802ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0

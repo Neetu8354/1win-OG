@@ -1,0 +1,34 @@
+{
+  "headers": [
+    {
+      "source": "**/*.avif",
+      "headers": [
+        { "key": "Content-Type", "value": "image/avif" }
+      ]
+    },
+    {
+      "source": "**/*.webp",
+      "headers": [
+        { "key": "Content-Type", "value": "image/webp" }
+      ]
+    },
+    {
+      "source": "**/*.png",
+      "headers": [
+        { "key": "Content-Type", "value": "image/png" }
+      ]
+    },
+    {
+      "source": "**/*.jpg",
+      "headers": [
+        { "key": "Content-Type", "value": "image/jpeg" }
+      ]
+    },
+    {
+      "source": "**/*.svg",
+      "headers": [
+        { "key": "Content-Type", "value": "image/svg+xml" }
+      ]
+    }
+  ]
+}
