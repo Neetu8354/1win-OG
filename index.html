@@ -808,9 +808,9 @@ for Windows</span></div><button class="base_root-ZOkD4 base_size-m-ZOkD4 base_va
   if (!btn || btn.dataset.readMoreFixed) return;
   btn.dataset.readMoreFixed = 'true';
   const wrapper = btn.parentElement;
-  const inner = btn.querySelector('div div div');
-  if (!inner) return;
-  const textNode = Array.from(inner.childNodes).find(function(n){ return n.nodeType === 3 && /Read/i.test(n.textContent); });
+  const svg = btn.querySelector('svg');
+  const inner = svg ? svg.parentElement : null;
+  const textNode = inner ? Array.from(inner.childNodes).find(function(n){ return n.nodeType === 3 && /Read/i.test(n.textContent); }) : null;
   const setExpanded = function(expanded){
     wrapper.classList.toggle('seo_expanded-aOKtp', expanded);
     if (textNode) textNode.textContent = expanded ? 'Read less ' : 'Read more ';
