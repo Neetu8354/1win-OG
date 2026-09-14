@@ -718,11 +718,63 @@ a[class*="variant-3_root-"] {
   font-family: var(--font-body-font-family, sans-serif);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+}
+.page-nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+  background: #111318;
+  border-bottom: 1px solid #252830;
+  z-index: 100;
+}
+.page-logo {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.04em;
+}
+.page-nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.page-nav-menu a {
+  color: #b8bcc4;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.page-nav-menu a:hover { color: #fff; }
+.page-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.page-nav-actions a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid #3a3e47;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.page-nav-actions a.primary {
+  background: #0082f3;
+  border-color: #0082f3;
 }
 .page-content {
+  flex: 1;
   max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 2rem 1.25rem;
 }
 .page-hero {
   text-align: center;
@@ -823,7 +875,39 @@ a[class*="variant-3_root-"] {
   transition: background 0.2s;
 }
 .page-home-btn:hover { background: #006ac7; }
+.page-footer {
+  background: #07080a;
+  border-top: 1px solid #252830;
+  padding: 2.5rem 1.25rem 1.5rem;
+}
+.page-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.page-footer h3, .page-footer h4 {
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+.page-footer p, .page-footer a {
+  color: #9ea2ab;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  display: block;
+}
+.page-footer a:hover { color: #fff; }
+.page-copyright {
+  text-align: center;
+  color: #6c7280;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+}
 @media (max-width: 640px) {
+  .page-nav { flex-wrap: wrap; }
+  .page-nav-menu { order: 3; width: 100%; gap: 0.6rem; justify-content: center; }
   .page-hero h1 { font-size: 2rem; }
   .page-subtitle { font-size: 1rem; }
   .page-hero-img { height: auto; }
@@ -834,6 +918,21 @@ a[class*="variant-3_root-"] {
 <style>.seo-extra-content{margin-top:var(--spacing-16);color:var(--color-content-base-secondary)}.seo_expanded-aOKtp .seo_icon-aOKtp{transform:rotate(180deg);transition:transform .2s ease}</style></head>
 
   <body><div class="page-placeholder">
+  <nav class="page-nav">
+    <a href="index.html" class="page-logo">1win</a>
+    <div class="page-nav-menu">
+      <a href="index.html">Home</a>
+      <a href="casino.html">Casino</a>
+      <a href="sports.html">Sports</a>
+      <a href="promotions.html">Promotions</a>
+      <a href="tournaments.html">Tournaments</a>
+      <a href="blog.html">Blog</a>
+    </div>
+    <div class="page-nav-actions">
+      <a href="https://wa.me/919702308448">Login</a>
+      <a class="primary" href="https://wa.me/919702308448">Register</a>
+    </div>
+  </nav>
   <div class="page-content">
     <header class="page-hero">
       <h1>Poker</h1>
@@ -864,6 +963,43 @@ a[class*="variant-3_root-"] {
       <h3>Cash Games</h3>
       <p>Play real money ring games at any stake.</p>
     </div></div>
+    </section>
+    <section class="page-section">
+      <h2>Why choose 1win Poker</h2>
+      <ul class="page-list"><li>Texas Hold'em and Omaha</li><li>Cash games and tournaments</li><li>Multi-table support</li><li>Crypto buy-ins</li><li>Fast withdrawals</li></ul>
+    </section>
+    <a href="index.html" class="page-home-btn">Back to Home</a>
+  </div>
+  <footer class="page-footer">
+    <div class="page-footer-grid">
+      <div>
+        <h3>1win</h3>
+        <p>Crypto casino, sportsbook, and Web3 gaming.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <a href="casino.html">Casino</a>
+        <a href="sports.html">Sports</a>
+        <a href="markets.html">Markets</a>
+        <a href="betwave.html">Betwave</a>
+      </div>
+      <div>
+        <h4>More</h4>
+        <a href="bonuses.html">Bonuses</a>
+        <a href="vip-club.html">VIP Club</a>
+        <a href="promotions.html">Promotions</a>
+        <a href="tournaments.html">Tournaments</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="https://wa.me/919702308448">WhatsApp</a>
+        <a href="blog.html">Blog</a>
+        <a href="forum.html">Forum</a>
+      </div>
+    </div>
+    <p class="page-copyright">© 2026 1win. All rights reserved.</p>
+  </footer>
+</div>
     </section>
     <section class="page-section">
       <h2>Why choose 1win Poker</h2>
